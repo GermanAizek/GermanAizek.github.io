@@ -32,9 +32,13 @@
 </head>
 
 <body>
+<div class="preloader">
+  <img src="images/loader.svg" alt="Loading...">
+</div>
+
 <div class="topbar animated fadeInLeftBig"></div>
 
-<!-- Header Starts -->
+<!-- Header Starts-->
 <div class="navbar-wrapper">
       <div class="container">
 
@@ -57,11 +61,12 @@
 
 
             <!-- Nav Starts -->
-            <div class="navbar-collapse  collapse">
+            <div class="navbar-collapse  collapse animated fadeInLeftBig">
               <ul class="nav navbar-nav navbar-right scroll">
-                 <li class="active"><a href="#works">Главная</a></li>
+                 <li class="active"><a href="#main">Главная</a></li>
                  <li ><a href="#about">О мне</a></li>
-                 <li ><a href="#partners">Навыки</a></li>
+                 <li ><a href="#works">Проекты</a></li>
+                 <li ><a href="#partners">Партнеры</a></li>
                  <li ><a href="#contact">Контакты</a></li>
               </ul>
             </div>
@@ -74,15 +79,116 @@
     </div>
 <!-- #Header Starts -->
 
+<!--Main Starts-->
+<div id="main" class="freelancer-hero">
+  <div class="bg-overlay">
+                    
+    <!-- Hero Content -->
+    <div class="hero-content-wrapper">
+      <div class="hero-content">
+        
+        <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Freelance Web Designer</h4>
+        <h1 class="hero-lead wow fadeInUp" data-wow-duration="1.5s">Jonathan Webb</h1>
+        <a href="pages/contact-3.html" target="_blank" class="btn btn-light btn-small wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Schedule Project</a>
+
+      </div>
+    </div>
+
+    <!-- Scroller -->
+    <a href="#services" class="scroller">
+      <span class="scroller-text">scroll down</span>
+      <span class="linea-basic-magic-mouse"></span>
+    </a>
+
+  </div><!-- / .bg-overlay -->
+</div><!-- / .main-hero-2 -->
+<!--Main Ends-->
+
+<!-- Cirlce Starts -->
+<div id="about"  class="container spacer about">
+<h2 class="text-center wowload fadeInUp">Персональная информация</h2>  
+  <div class="row">
+
+  <div class="col-sm-4 wowload fadeInLeft">
+    <h4><i class="fa fa-paint-brush"></i> О себе</h4>
+    <p>Доброго времени суток, меня зовут Герман. Занимаюсь разработкой программ для разных платформ, а также сайтов на CMS и адаптивной версткой Bootstrap. Занимаюсь и разрабатываю проекты в разных областях, постоянно совершенствую свой профессиональный уровень. Вы можете заказать у меня проект, или связаться со мной для сотрудничества.</p>
+  </div>
+
+  <div class="col-sm-4 wowload fadeInUp">
+    <img src="images/avatar.jpg" alt="img01"
+    style="
+    border-radius:30%;
+    object-fit: cover;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    width: 300px;
+    height: 300px;
+    "
+    class="img-responsive center-block" />
+  </div>
+
+  <div class="col-sm-4 wowload fadeInRight">
+    <h4><i class="fa fa-code"></i> Персональная информация</h4>
+    <p>Семенов Герман</p>
+    <p>Создание программ: создание софта на любые платформы (Windows, Android, MacOS и т.д.) C++ и Python + QT, создание веб-приложений на Node.JS, разработка дизайна сайта, HTML верстка (Bootstrap), установка на CMS WordPress, OpenCart, Elgg.</p>
+    <p>День рождения: 11 февраля 1999 года</p>
+    <p>Веб-сайт: <a href="#">germanaizek.github.io</a></p>
+  </div>
+  </div>
+
+  <div class="process">
+  <h3 class="text-center wowload fadeInUp">Process</h3>
+  <ul class="row text-center list-inline  wowload bounceInUp">
+      <li>
+            <span><i class="fa fa-history"></i><b>Research</b></span>
+        </li>
+        <li>
+            <span><i class="fa fa-puzzle-piece"></i><b>Plan</b></span>
+        </li>
+        <li>
+            <span><i class="fa fa-database"></i><b>Develop</b></span>
+        </li>
+        <li>
+            <span><i class="fa fa-magic"></i><b>Integration</b></span>
+        </li>        
+        <li>
+            <span><i class="fa fa-cloud-upload"></i><b>Deliver</b></span>
+        </li>
+    </ul>
+  </div>
+</div>
+<!-- #Cirlce Ends -->
 
 
 
+<!-- About Starts -->
+<div class="highlight-info">
+<div class="overlay spacer">
+<div class="container">
+<div class="row text-center  wowload fadeInDownBig">
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-smile-o  fa-5x"></i><h4>24 Clients</h4>
+  </div>
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-rocket  fa-5x"></i><h4>75 Projects</h4>
+  </div>
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-cloud-download  fa-5x"></i><h4>454 Downloads</h4>
+  </div>
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-map-marker fa-5x"></i><h4>2 Offices</h4>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- About Ends -->
 
 
 
 <!-- works -->
 <div id="works"  class=" clearfix grid"> 
-    <figure class="effect-oscar  wowload fadeIn">
+    <figure class="effect-oscar  wowload fadeInUp">
         <img src="images/portfolio/cell_logo.jpg" alt="img01"/>
         <figcaption>
             <h2>Cell</h2>
@@ -95,18 +201,18 @@
         <figcaption>
             <h2>Relativity</h2>
             <p>Желаете создать свою криптовалюту? Как раз для таких целей подойдет новый протокол Relativity на основе CryptoNote. Новый протокол - это огроменное количество транзакций в минуту (TPS). Протокол собирается пробить отметку 50000 TPS, что сопостовимо с транснациональной компанией Visa!<br>
-            <a href="images/portfolio/relativity.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="images/portfolio/relativity.jpg" title="1" data-gallery>Подробнее</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="images/portfolio/3.jpg" alt="img01"/>
+        <img src="images/portfolio/engine_logo.jpg" alt="img01"/>
         <figcaption>
-            <h2>Test3</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="images/portfolio/3.jpg" title="1" data-gallery>View more</a></p>            
+            <h2>Nyan Engine (Тех. название)</h2>
+            <p>Хотите сделать быстро игру на новых технологиях, но не знаете с чего начать. Предлагаем условно-бесплатный 2D-3D движок. У вас появится возможность сделать игру на современном DirectX 12 или Vulkan.<br>
+            <a href="images/portfolio/engine_logo.jpg" title="1" data-gallery>Подробнее</a></p>            
         </figcaption>
     </figure>
-     <figure class="effect-oscar  wowload fadeInUp">
+    <!-- <figure class="effect-oscar  wowload fadeInUp">
         <img src="images/portfolio/4.jpg" alt="img01"/>
         <figcaption>
             <h2>Test4</h2>
@@ -178,85 +284,12 @@
             <p>Lily likes to play with crayons and pencils<br>
             <a href="images/portfolio/12.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
-    </figure>
+    </figure> -->
     
 
      
 </div>
 <!-- works -->
-
-
-
-
-
-
-<!-- Cirlce Starts -->
-<div id="about"  class="container spacer about">
-<h2 class="text-center wowload fadeInUp">Creative digital agency based on London</h2>  
-  <div class="row">
-  <div class="col-sm-6 wowload fadeInLeft">
-    <h4><i class="fa fa-paint-brush"></i> Design</h4>
-    <p>Creative digital agency for sleek and sophisticated solutions for mobile, websites and software designs, lead by passionate and uber progressive team that lives and breathes design. Creative digital agency for sleek and sophisticated solutions for mobile, websites and software designs.</p>
-    
-
-  </div>
-  <div class="col-sm-6 wowload fadeInRight">
-  <h4><i class="fa fa-code"></i> Frontend & Backend Development</h4>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>    
-  </div>
-  </div>
-
-  <div class="process">
-  <h3 class="text-center wowload fadeInUp">Process</h3>
-  <ul class="row text-center list-inline  wowload bounceInUp">
-      <li>
-            <span><i class="fa fa-history"></i><b>Research</b></span>
-        </li>
-        <li>
-            <span><i class="fa fa-puzzle-piece"></i><b>Plan</b></span>
-        </li>
-        <li>
-            <span><i class="fa fa-database"></i><b>Develop</b></span>
-        </li>
-        <li>
-            <span><i class="fa fa-magic"></i><b>Integration</b></span>
-        </li>        
-        <li>
-            <span><i class="fa fa-cloud-upload"></i><b>Deliver</b></span>
-        </li>
-    </ul>
-  </div>
-</div>
-<!-- #Cirlce Ends -->
-
-
-
-<!-- About Starts -->
-<div class="highlight-info">
-<div class="overlay spacer">
-<div class="container">
-<div class="row text-center  wowload fadeInDownBig">
-  <div class="col-sm-3 col-xs-6">
-  <i class="fa fa-smile-o  fa-5x"></i><h4>24 Clients</h4>
-  </div>
-  <div class="col-sm-3 col-xs-6">
-  <i class="fa fa-rocket  fa-5x"></i><h4>75 Projects</h4>
-  </div>
-  <div class="col-sm-3 col-xs-6">
-  <i class="fa fa-cloud-download  fa-5x"></i><h4>454 Downloads</h4>
-  </div>
-  <div class="col-sm-3 col-xs-6">
-  <i class="fa fa-map-marker fa-5x"></i><h4>2 Offices</h4>
-  </div>
-</div>
-</div>
-</div>
-</div>
-<!-- About Ends -->
-
-
-
-
 
 
 
@@ -376,7 +409,7 @@
 <div id="contact" class="spacer">
 
 <div class="container contactform center">
-<h2 class="text-center  wowload fadeInUp">Get in touch to start your project</h2>
+<h2 class="text-center  wowload fadeInUp">Начать сотрудничество</h2>
   <div class="row wowload fadeInLeftBig">      
       <div class="col-sm-6 col-sm-offset-3 col-xs-12">      
         <input type="text" placeholder="Name">
@@ -397,7 +430,7 @@
 <!-- Footer Starts -->
 <div class="footer text-center spacer">
 <p class="wowload flipInX"><a href="#"><i class="fa fa-facebook fa-2x"></i></a> <a href="#"><i class="fa fa-instagram fa-2x"></i></a> <a href="#"><i class="fa fa-twitter fa-2x"></i></a> <a href="#"><i class="fa fa-flickr fa-2x"></i></a> </p>
-Copyright 2014 Cyrus Creative Studio. All rights reserved.
+Copyright 2018 GermanAizek. All rights reserved.
 </div>
 <!-- # Footer Ends -->
 <a href="#works" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
