@@ -31,7 +31,8 @@ $.getLanguage = function(key) {
 	return key;
 }
 
-$('#ru').on('click', function(e) {
+$('#rus').on('click', function(e) {
+	alert('1');
 	e.preventDefault();
 
 	var $this = $(this);
@@ -40,7 +41,8 @@ $('#ru').on('click', function(e) {
 	$.redrawLang('eng');
 });
 
-$('#en').on('click', function(e) {
+$('#eng').on('click', function(e) {
+	alert('2');
 	e.preventDefault();
 
 	var $this = $(this);
