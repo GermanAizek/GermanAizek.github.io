@@ -1,4 +1,5 @@
 var language = false;
+
 $.redrawLang = function(lang) {
 	$.ajax({
 		url : 'languages/' + lang + '.json', // путь до json
@@ -31,7 +32,7 @@ $.getLanguage = function(key) {
 	return key;
 }
 
-$('#rus').on('click', function(e) {
+$('rus').on('click', function(e) {
 	alert('1');
 	e.preventDefault();
 
@@ -41,7 +42,7 @@ $('#rus').on('click', function(e) {
 	$.redrawLang('eng');
 });
 
-$('#eng').on('click', function(e) {
+$('eng').on('click', function(e) {
 	alert('2');
 	e.preventDefault();
 

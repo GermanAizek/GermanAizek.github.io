@@ -78,15 +78,16 @@
             </div>
             <!-- #Nav Ends -->
 
-            <div class="list-group">
-                  <a class="list-group-item active">
-                   <h4 class="list-group-item-heading">Языки</h4>
-                   <p class="list-group-item-text">
-                    <a href="#" class="link" id="rus">RU</a>
-                    <a href="#" class="link" id="eng">EN</a>
-                   </p>
-                  </a>
-                 </div>
+            <div class="list-group">Языки: 
+              <a href="#rus" onclick="print()" class="link" id="rus">RU</a>
+              <a href="#eng" onclick="print()" class="link" id="eng">EN</a>   
+            </div>
+
+            <script>
+              function print() {
+                alert('Простите, но эта функция не работает.\nSorry, it is not working.')
+              }
+            </script>
 
           </div>
         </div>
@@ -110,12 +111,12 @@
   <div class="col-sm-4 wowload fadeInUp">
     <img src="images/avatar.jpg" alt="img01"
     style="
-    border-radius:30%;
+    border-radius: 15%;
     object-fit: cover;
-    -webkit-border-radius: 30%;
-    -moz-border-radius: 30%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
     width: 300px;
-    height: 300px;
+    height: 400px;
     "
     class="img-responsive center-block" />
   </div>
