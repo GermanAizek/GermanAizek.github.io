@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>https://germanaizek.github.io/</loc>
+	<lastmod>2019-04-03T02:25:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://germanaizek.github.io/archive.html</loc>
+	<lastmod>2019-04-03T02:25:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://germanaizek.github.io/games.html</loc>
+	<lastmod>2019-04-03T02:25:13+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
