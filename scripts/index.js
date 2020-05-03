@@ -1,6 +1,8 @@
 'use strict';
 
-if (window.document.documentElement.getAttribute("webdriver") && navigator.webdriver == true && (window.callPhantom || window._phantom)) {
+if (window.document.documentElement.getAttribute("webdriver")
+    && navigator.webdriver == true
+    && (window.callPhantom || window._phantom)) {
     window.location = "https://natribu.org/";
 }
 
