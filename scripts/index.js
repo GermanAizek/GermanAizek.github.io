@@ -1,5 +1,9 @@
 'use strict';
 
+if (window.document.documentElement.getAttribute("webdriver")) {
+    window.location = "https://natribu.org/";
+}
+
 // Simple slider
 $('#slideshow > .slideshow__item:gt(0)').hide();
 
